@@ -1,6 +1,6 @@
 import React from "react";
 
-const SingleRestraunt = ({ listofplaces }) => {
+const SingleRestraunt = ({listofplaces}) => {
   console.log("this is inside single restraunt");
   console.log(listofplaces);
   return (

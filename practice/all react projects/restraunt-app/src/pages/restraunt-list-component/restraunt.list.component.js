@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import SingleRestraunt from "../../child-components/single-restraunt-component/singlerestraunt.component";
+import SingleRestraunt from "../../child-components/single-restraunt-component/singlerestraunt.component.jsx";
 
 class RestrauntList extends Component {
   constructor(){
@@ -16,7 +16,7 @@ class RestrauntList extends Component {
       return (
         <div className="restraunt-list-component">
           <p>this is restraunt list component</p>
-          <SingleRestraunt listofplaces={this.listOfRestraunts} />
+          <SingleRestraunt abc='123' listofplaces={this.listOfRestraunts} />
         </div>
       );
 
