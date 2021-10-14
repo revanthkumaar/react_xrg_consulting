@@ -4,7 +4,8 @@ import React from 'react';
 function EventHandlerExample() {
 
     //functionality
-    function buttonClickHandler(){
+    function buttonClickHandler(e){
+        e.preventDefault();
         console.log('buttonClicked in eventhandlerexample component')
     }
 
