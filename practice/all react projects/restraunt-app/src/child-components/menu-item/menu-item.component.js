@@ -1,10 +1,10 @@
 import React from "react";
 
-function MenuItem() {
+function MenuItem(props) {
   return (
     <div className="menuitem-component">
-        
-      <p>this is menuitem component</p>
+
+      <p>{props.nameOfCategory}</p>
   
     </div>
   );
